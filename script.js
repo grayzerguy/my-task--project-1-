@@ -58,6 +58,7 @@ function addNoteToDom(currentNote, i) {
   const noteContaier = document.createElement("div");
   noteContaier.setAttribute("index", i);
   noteContaier.classList.add("note-container");
+  noteContaier.classList.add("fade-in-image");
 
   const noteText = document.createElement("textarea");
   const divToTextArea = document.createElement("div");
