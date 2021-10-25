@@ -1,0 +1,108 @@
+.note-container {
+  width: 200px;
+  height: 250px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  margin-top: 15px;
+  background-image: url("27643 - JS project - v6/notebg.png");
+  padding: 70px;
+  margin: 12px;
+}
+
+body {
+  background-image: url("27643 - JS project - v6/tile.jpg");
+  box-sizing: border-box;
+  background-size: auto;
+  margin: 0 auto;
+}
+form {
+  width: 600px;
+  height: 300px;
+  margin: auto;
+  border: 5px solid black;
+  border-radius: 10%;
+  padding: 10px;
+  background-image: url("27643 - JS project - v6/formbg.jpg");
+  position: relative;
+}
+#btnAdd {
+  position: absolute;
+  bottom: -48px;
+  right: 180px;
+  width: 90px;
+}
+
+#btnReset {
+  position: absolute;
+  bottom: -48px;
+  left: 180px;
+  background-color: brown;
+  width: 90px;
+}
+
+.hidden {
+  display: none;
+}
+.btn-close {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+}
+#h1 {
+  text-align: center;
+}
+
+.form-group {
+  position: relative;
+}
+.pra {
+  height: 200px;
+  width: 200px;
+
+  position: absolute;
+  overflow-y: scroll;
+}
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: text-indent 0.4s 0.4s ease;
+  text-indent: -100%;
+  opacity: 1;
+}
+#textArea {
+  height: 110px;
+  width: 166px;
+  position: absolute;
+  overflow-y: scroll;
+  top: 80px;
+  left: 6px;
+  background-color: rgb(164, 201, 188);
+}
+
+#noteTime {
+  position: absolute;
+  height: 100px;
+  bottom: -55px;
+}
+
+#noteDate {
+  position: absolute;
+  height: 100px;
+  top: 55px;
+  left: 40px;
+  direction: rtl;
+}
+h1 {
+  text-align: center;
+  padding: 10px;
+}
+fade-in {
+  animation: fade-in 1s;
+}
+.error {
+  color: red;
+  font-size: 27px;
+  position: absolute;
+  text-align: center;
+  bottom: 11px;
+  right: 160px;
+}
